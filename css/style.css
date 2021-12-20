@@ -457,6 +457,27 @@ footer a {text-decoration: none;}
 	width: 140px;		/*幅*/
 	text-align: center;	/*センタリング*/
 }
+/*ta_support設定*/
+.ta_support_per,
+.ta_support_cor {
+	width: 50%;
+}
+.ta_support_per td, 
+.ta_support_per th,
+.ta_support_cor td, 
+.ta_support_cor th {
+	word-break: break-all;
+	border: 1px solid #fff;	/*テーブルの枠線の幅、線種、色*/
+	padding: 5px;	/*ボックス内の余白*/
+	text-align: center;	/*センタリング*/
+}
+.ta_support_per #h1,
+.ta_support_cor #h1 {
+	background-color: rgba(4, 140, 231, 0.5);
+}
+.ta_support_per p{
+	display: inline;
+}
 /*フォーム関連
 ---------------------------------------------------------------------------*/
 /*ボタン（btn）*/
