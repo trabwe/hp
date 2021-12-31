@@ -348,7 +348,7 @@ header .icon img {
 }
 /*見出しを含まないお知らせブロック*/
 #new dl {
-	height: 15%;		/*高さ*/
+	height: 70%;		/*高さ*/
 	overflow: hidden;
 		/*高さを超えるコンテンツ量部分は非表示に*/
 }
@@ -711,11 +711,23 @@ footer .pr {display: block;}
 }
 #newsboard {
 	position: relative;
+	height: 100%;
+}
+#newsblock a{
 	height: 50%;
-	margin-left: auto;
-	margin-right: auto;	
+	display: flex;
+	justify-content: center;
+
 }
 #log {
+	padding-top: 5%;
+	padding-left: 2%;
+	padding-right: 2%;
+	height: 50%;
+}
+#log a{
+	height: initial;
+	display: initial;
 }
 #tweet_sh{
 	position: absolute;
