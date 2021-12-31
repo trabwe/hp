@@ -131,7 +131,8 @@ header.pc p {
 }
 
 #log {
-	height: 40%;
+	padding-top: 5%;
+	height: 35%;
 }
 #new {
 	overflow: hidden;

@@ -291,11 +291,6 @@ header .icon img {
 	margin-bottom: 20px;	/*見出しの下に空けるスペース*/
 	font-size: 15px;		/*文字サイズ*/
 }
-
-#schedule {
-	overflow-x: scroll;
-}
-
 .youtube{
 	position:relative;
 	width:100%;
@@ -770,7 +765,9 @@ footer .pr {display: block;}
 	background: url(../images/com_bg.jpg) no-repeat 85% center;	/*背景画像（※IE8以下の古いブラウザ用）*/
 	background: url(../images/com_bg.jpg) no-repeat 85% center / cover;	/*背景画像*/
 }
-
+#schedule {
+	overflow-x: scroll;
+}
 }
 /*画面を横向きにした場合の高さが500px以下の場合の設定。
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
